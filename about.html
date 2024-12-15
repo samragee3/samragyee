@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about page</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <style>
+        /* navbar section starts */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            height: 60px;
+            width: 100%;
+            background: white;
+            color: rgba(87, 9, 133, 0.568);
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 30px;
+        }
+
+        nav #logo {
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        nav #menu {
+            display: flex;
+            gap: 2.5rem;
+        }
+
+        #menu a {
+            text-decoration: none;
+            color: rgba(87, 9, 133, 0.568);
+            transition: all ease 0.3s;
+            cursor: pointer;
+        }
+
+        #menu a:hover {
+            color: rgb(236, 182, 137);
+            transition: all ease 0.3s;
+        }
+
+        nav #icon {
+            display: none;
+        }
+
+        /* navbar section ends */
+
+        body {
+            background: rgba(147, 8, 182, 0.096);
+        }
+
+        .about {
+            height: 100vh;
+            margin: 30px;
+        }
+
+        .about h2 {
+            color: #d61485;
+        }
+
+        .about h3 {
+            color: #1084c7;
+        }
+
+        .about h4 {
+            color: #6510c7;
+        }
+
+        .about a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .about a:hover {
+            color: rgb(10, 167, 179);
+        }
+
+        /* Responsiveness for mobile view */
+        @media screen and (max-width: 768px) {
+            nav #menu {
+                display: none;
+            }
+
+            nav #icon {
+                display: block;
+            }
+        }
+    </style>
+
+
+    <nav>
+        <div id="logo">Samragree</div>
+        <div id="menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="faq.html">FAQ</a>
+            <a href="blog.html">Blog</a>
+            <a href="service.html">Services</a>
+        </div>
+        <div id="icon">
+            <i class="ri-menu-line"></i>
+        </div>
+    </nav>
+
+    <div class="about">
+        <h1>Welcome to <a href="index.html">*Samragyee.com*</a> your trusted partner in turning dreams into reality!
+        </h1><br>
+        <p>At *Samragyee.com*, we are dedicated to guiding Nepali students who aspire to study in the USA. We understand
+            that pursuing education abroad is not just a dream but a life-changing journey, and we are here to make
+            every step of that journey smooth and successful.
+        </p>
+        <br>
+        <p>Our mission is to provide comprehensive support, guidance, and reliable information to help students achieve
+            their academic goals. From selecting the right universities and navigating through applications to securing
+            visas and adapting to life in the USA, we are with you every step of the way.
+        </p>
+        <br>
+
+        <h2><u>What We Offer:</u></h2><br><br>
+
+        <ul>
+            <li>
+                <h3>Personalized Guidance</h3>
+                Tailored advice on university selection, scholarships, and applications.
+            </li>
+            <br>
+
+            <li>
+                <h3>Step-by-Step Assistance</h3>
+                Expert help with SOPs, recommendation letters, fee payments, and visa interviews.
+            </li>
+            <br>
+
+            <li>
+                <h3>Reliable Updates</h3>
+                The latest news, updates, and policies about studying in the USA.
+            </li>
+            <br>
+
+            <li>
+                <h3>Student Support</h3>
+                Tips and resources to ease your transition and help you thrive in a new country.
+            </li>
+            <br>
+
+        </ul>
+
+        <p>We are passionate about empowering Nepali students to reach their full potential and excel on a global
+            platform. With *Samragyee.com*, your dream of studying in the USA is closer than ever.
+        </p>
+        <br>
+        <p>Start your journey with us today – because your success is our mission.
+        </p>
+        <br>
+        <br>
+
+        <marquee behavior="scrill" direction="right"><h3>*Samragyee.com - Guiding Dreams, Building.</h3></marquee>
+
+    </div>
+</body>
+
+</html>

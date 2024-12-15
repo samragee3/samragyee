@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samragree</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+  emailjs.init('Ce5kAzUmdr_93mxsp')
+</script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="page1">
+
+      <div class="toogle">
+        <i class="ri-moon-fill" id="mode"></i>
+      </div>
+
+      <nav>
+        <div id="logo">Samragree</div>
+        <div id="menu">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="faq.html">FAQ</a>
+          <a href="blog.html">Blog</a>
+          <a href="service.html">Services</a>
+        </div>
+
+        <div id="icon">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+
+      <div class="nav-box">
+        <div id="nav-cnt">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="faq.html">FAQ</a>
+          <a href="blog.html">Blog</a>
+          <a href="service.html">Services</a>
+        </div>
+      </div>
+
+      <div class="bg-top">
+        <h1>Trend Blogger</h1>
+        <h2>Your source of great content</h2>
+      </div>
+
+
+      <div class="content">
+        <div id="cnt-lft">
+          <h1>Catch up with the trendy topics</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut alias deleniti repellendus dolore dolorem, id
+            porro laboriosam provident repudiandae, ducimus hic consequatur dignissimos natus cum ex sit. Nulla, iusto
+            dignissimos, velit unde aut harum vel laborum voluptates beatae quidem aliquam laboriosam sequi
+            exercitationem voluptatibus odit, quae veritatis omnis. Deserunt aperiam obcaecati ipsam, explicabo,
+            provident at ullam et ab sequi est unde esse aliquid ea consectetur.</p>
+        </div>
+        <div id="cnt-rht"></div>
+      </div>
+
+      <!-- swiper container -->
+      <div class="container swiper">
+        <div class="slider-wrapper">
+          <div class="card-list swiper-wrapper">
+            <div class="card-item swiper-slide">
+              <img src="./assets/univ-1.jpg" alt="User Image" class="user-image">
+              <h2 class="user-name">Physical Classes</h2>
+              <p class="user-profession">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, minima.
+              </p>
+              <button class="message-button">Book Now</button>
+            </div>
+
+            <div class="card-item swiper-slide">
+              <img src="./assets/univ-2.jpg" alt="User Image" class="user-image">
+              <h2 class="user-name">Online Class</h2>
+              <p class="user-profession">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, id.</p>
+              <button class="message-button">Book Now</button>
+            </div>
+
+            <div class="card-item swiper-slide">
+              <img src="./assets/univ-3.jpg" alt="User Image" class="user-image">
+              <h2 class="user-name">Mock Test</h2>
+              <p class="user-profession">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, reiciendis.</p>
+              <button class="message-button">Book Seat</button>
+            </div>
+
+            <div class="card-item swiper-slide">
+              <img src="./assets/univ-4.jpg" alt="User Image" class="user-image">
+              <h2 class="user-name">Self Learning</h2>
+              <p class="user-profession">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, aperiam.</p>
+              <button class="message-button">Message</button>
+            </div>
+
+            <div class="card-item swiper-slide">
+              <img src="./assets/univ-5.jpg" alt="User Image" class="user-image">
+              <h2 class="user-name">University</h2>
+              <p class="user-profession">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, dolore.</p>
+              <button class="message-button">Message</button>
+            </div>
+
+            <div class="card-item swiper-slide">
+              <img src="./assets/univ-2.jpg" alt="User Image" class="user-image">
+              <h2 class="user-name">Texas College</h2>
+              <p class="user-profession">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, praesentium.</p>
+              <button class="message-button">Message</button>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+          <div class="swiper-slide-button swiper-button-prev"></div>
+          <div class="swiper-slide-button swiper-button-next"></div>
+        </div>
+      </div>
+
+      <a href="#top">
+        <div class="arrow">
+          <i class="ri-arrow-up-double-line"></i>
+        </div>
+      </a>
+
+      <!-- footer section -->
+      <div class="footer">
+        <div id="ftr-left">
+          <h3>Get To Know Us</h3>
+          <a>Home</a>
+          <a>About Us</a>
+          <a>FAQ</a>
+          <a>Sign Up</a>
+        </div>
+
+        <div id="ftr-mid">
+          <h3>Connect With Us</h3>
+          <a>Facebook</a>
+          <a>Twitter</a>
+          <a>Instagram</a>
+          <a>Linkedin</a>
+        </div>
+
+        <div id="ftr-right">
+          <h3>Get In Touch</h3>
+          <input type="text" id="fullName" placeholder="Full Name" required/>
+          <input type="email" id="email_id" placeholder="Email "required/>
+          <input type="text" placeholder="message" id="message" required>
+          <button onclick="SendMail()">Send</button>
+          <!-- <input type="text" placeholder="Enter Your Email">
+          <input type="text" placeholder="Enter Your Name">
+          <input type="text" placeholder="Enter Your Message">
+          <button>Submit</button> -->
+        </div>
+
+        <div id="copyright">
+          <p>Copyright © 2024 Samragree. All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Linking SwiperJS script -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
