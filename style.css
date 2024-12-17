@@ -174,7 +174,8 @@ nav #icon {
 
 /* container section */
 .content {
-  height: 90vh;
+  height: 200px;
+  height: 50vh;
   width: 100%;
   display: flex;
 }
