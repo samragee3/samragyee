@@ -174,8 +174,8 @@ nav #icon {
 
 /* container section */
 .content {
-  height: 200px;
-  height: 50vh;
+  height: 300px;
+  height: 60vh;
   width: 100%;
   display: flex;
 }
@@ -205,6 +205,7 @@ nav #icon {
 }
 
 #cnt-rht {
+  height:300px;
   height: 80%;
   width: 50%;
   background: url('./assets/img1.jpg');
